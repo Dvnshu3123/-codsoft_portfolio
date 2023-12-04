@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divanshu Maurya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            padding: 5vw;
+            font-size: larger;
+        }
+
+        .header ul li {
+
+            list-style: none;
+        }
+
+        .header ul {
+            display: flex;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            height: 7vh;
+            width: 100vw;
+            color: white;
+            background-color: rgb(120, 112, 112);
+            padding-top: 4vh;
+            position: fixed;
+        }
+
+        .intro {
+            height: 60vh;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(96, 40, 40);
+        }
+
+        .but button {
+            height: 5vh;
+            width: 10vw;
+            font-size: large;
+            border-radius: 25px;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .but button:hover {
+            color: black;
+            background-color: white;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .info {
+            font-size: large;
+            font-weight: bold;
+            margin-top: 20vh;
+        }
+
+        .info div {
+            padding: 7px 0px;
+        }
+        .sh{
+            color: white;
+            font-weight: bolder;
+        }
+
+        .skill {
+            height: 60vh;
+            width: auto;
+            text-align: center;
+            background:linear-gradient(0deg,black,50%,rgb(124, 38, 38) 100%);
+            font-weight: 800;
+            padding: 45px;
+        }
+
+        .sk {
+            display: flex;
+            overflow: auto;
+        }
+
+        .skills {
+            background:linear-gradient(180deg,black 10%,rgb(167, 31, 31) 70%);
+            height: 25vh;
+            width: 140vw;
+            padding: 30px;
+            color: black;
+            margin: 107px 20px;
+            border-radius: 25px;
+            border: 4px solid white;
+            overflow: auto;
+        }
+
+        .projects {
+            color:white;
+            height: 60vh;
+            width: auto;
+            text-align: center;
+            background:linear-gradient(180deg,black,50%,red 100%);
+            font-weight: 800;
+            padding: 45px;
+        }
+
+        .project {
+            display: flex;
+            overflow: auto;
+        }
+
+        .proje {
+            background-color: black;
+            height: 25vh;
+            width: 140vw;
+            padding: 30px;
+            color: white;
+            margin: 107px 20px;
+            border-radius: 25px;
+            border: 4px solid white;
+            overflow: auto;
+        }
+
+        .contact {
+            height: 70vh;
+            width: auto;
+            background-color: black;
+            text-align: center;
+        }
+
+        .cinfo {
+            height: 55vh;
+            width: 60vw;
+            background-color: grey;
+            margin: 5vh auto;
+            border-radius: 25px;
+
+        }
+
+        .cinfo input {
+            height: 5vh;
+            width: 30vw;
+            padding: 0px 50px;
+            border-radius: 25px;
+            margin:23px 10vw 0px 10vw;
+        }
+
+        .cinfo button {
+            height: 5vh;
+            width: 10vw;
+            font-size: large;
+            border-radius: 25px;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            margin-top: 15px;
+            
+
+
+        }
+
+        .cinfo button:hover {
+            color: black;
+            background-color: white;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .footer {
+            height: 15vh;
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            background-color: grey;
+            color: black;
+            padding-top: 5vh;
+        }
+        .contact h2{
+            color:white;
+            padding-top: 40px;
+        }
+        .img img{
+            border-radius: 50%;
+            width=45vw;
+            height: 45vh;
+    padding-top: 10vh;
+        }
+        .git{
+            height: 5vh;
+            width: 10vw;
+            font-size: large;
+            border-radius: 25px;
+            background-color: white;
+            color: black;
+            font-weight: bolder;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3><a href="index.html">Portfolio</a></h3>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+
+    </div>
+    <div class="intro">
+        <div class="info">
+            <div class="greet">
+                <h3>Hello , I a'm </h3>
+            </div>
+            <div class="name">
+                <h1>Divyanshu Maurya.</h1>
+            </div>
+            <div class="mi">
+                <p>I am a student , a Front end web developer , a Programmer. <br> I am a dedicated and a workoholic person , <br> always eager to learn new things and skill to boost my production.</p>
+            </div>
+            <div class="but">
+                <button>Contact Me</button>
+                <button>Resume</button>
+            </div>
+        </div>
+        <div class="img">
+            <img src="myphoto.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="skill">
+        <h2 class="sh">Technical Skills</h2>
+        <div class="sk">
+            <div class="skills">
+                <img src="2.png" alt="">
+                <h3>HTML</h3>
+                <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It defines the meaning and structure of web content.</p>
+            </div>
+            <div class="skills">
+                <img src="3.png" alt="">
+                <h3>CSS</h3>
+                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                    written in a markup language such as HTML or XML.</p>
+            </div>
+            <div class="skills">
+                <img src="1.png" alt="">
+                <h3>Javascript</h3>
+                <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies
+                    of the World Wide Web, alongside HTML and CSS.</p>
+            </div>
+            <div class="skills">
+                <img src="5.png" alt="">
+                <h3>Python</h3>
+                <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code
+                    readability with the use of significant indentation. </p>
+            </div>
+            <div class="skills">
+                <img src="4.png" alt="">
+                <h3>C</h3>
+                <p>C is an imperative procedural language, supporting structured programming, lexical variable scope,
+                    and recursion, with a static type system. </p>
+            </div>
+        </div>
+    </div>
+    <div class="projects">
+        <h2 class="proj">Projects</h2>
+        <div class="project">
+            <div class="proje">
+                <img src="" alt="">
+                <h4 class="des">Calculator</h4>
+                <p>In this project we have created a calculator using HTML, CSS, and JavaScript.The prerequisites of
+                    this
+                    project are the basic knowledge of HTML CSS and javaScript. </p>
+                <a href=""><button class="git">Get Code</button></a>
+            </div>
+            <div class="proje">
+                <img src="" alt="">
+                <h4 class="des">Landing Page</h4>
+                <p>In this project we have created a Landing page using HTML and CSS.The prerequisites of this project
+                    are
+                    the basic knowledge of HTML CSS</p>
+                    <a href=""><button class="git">Get Code</button></a>
+            </div>
+            <div class="proje">
+                <img src="" alt="">
+                <h4 class="des">Book Shaala</h4>
+                <p>In this project we have created an E-Commmerce book selling website named as "Book Shaala" using
+                    HTML,
+                    CSS, and JavaScript.The prerequisites of this project are the basic knowledge of HTML CSS and
+                    javaScript
+                </p>
+                <a href=""><button class="git">Get Code</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <div class="cinfo">
+            <input type="text" placeholder="Enter your name">
+            <input type="number" placeholder="Enter your contact no">
+            <input type="text" placeholder="Enter your oraganisation name">
+            <input type="text" placeholder="Enter your E-Mail">
+            <input type="text" placeholder="Enter your the subject">
+            <input type="text-area" placeholder="Enquiry">
+            <button>Submit now</button>
+            <button>Reset</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="no">
+            <h4>Contact Information</h4>
+            <p>+91-8965432651 <br> +91-9876512340 <br> Loremipsumdolor@gmail.com</p>
+        </div>
+        <div class="cpy">
+            <p>Copyright @ 2023 | All Rights reserved</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
